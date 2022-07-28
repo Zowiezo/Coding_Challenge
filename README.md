@@ -21,3 +21,8 @@ $ yarn start
 
 # Application running on port 3000
 ```
+
+## Observation
+To use themoviedb.org API, you must register and obtain an access key, which is necessarily used in the application.
+
+Folder src > Tmdbb.js > API_KEY
