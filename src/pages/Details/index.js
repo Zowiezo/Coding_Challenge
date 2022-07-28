@@ -56,7 +56,7 @@ function Details(){
               <h4>{descriptionVideo}</h4>
                 {
                   (trailerVideo.results !== undefined && trailerVideo.results.length !== 0) &&
-                  <a onClick={() => handleShowTrailer()} className="details--viewtrailer"><div><TheatersIcon />View trailer</div></a>
+                  <div onClick={() => handleShowTrailer()} className="details--viewtrailer"><div><TheatersIcon />View trailer</div></div>
                 }
                 {
                   (movieDetails.homepage !== undefined && movieDetails.homepage !== '') && 
