@@ -4,12 +4,12 @@ import PlayArrowIcon from '@material-ui/icons/PlayArrow'
 import AddIcon from '@material-ui/icons/Add'
 
 function FeaturedMovie( { item } ) {
-  let firstDate = new Date(item.first_air_date);
-  let genres = [];
+  let firstDate = new Date(item.first_air_date)
+  let genres = []
   for(let i in item.genres){
-    genres.push(item.genres[i].name);
+    genres.push(item.genres[i].name)
   }
-  let description = item.overview.length > 200 ? item.overview.substring(0, 200) + '...' : item.overview;
+  let description = item.overview.length > 200 ? item.overview.substring(0, 200) + '...' : item.overview
 
   return (
     <section 
