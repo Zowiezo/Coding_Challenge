@@ -10,17 +10,17 @@ header {
   align-items: center;
   padding: 0 40px;
   background: transparent;
-  transition: all ease 0.5s;
+  transition: all ease 0.5s
 }
 
 header.black {
-  background: #141414;
+  background: #141414
 }
 
 .header--logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
 
 .header--logo div {
@@ -34,18 +34,18 @@ header.black {
   display: flex;
   align-items: center;
   border-radius: 3px;
-  margin-top: -3px;
+  margin-top: -3px
 }
 
 .header--logo img {
-  height: 25px;
+  height: 25px
 }
 
 .header--user {
-  height: 35px;
+  height: 35px
 }
 
 .header--user img {
   height: 100%;
-  border-radius: 3px;
+  border-radius: 3px
 }
