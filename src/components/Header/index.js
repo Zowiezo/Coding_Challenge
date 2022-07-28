@@ -13,11 +13,6 @@ function Header( { black } ) {
             Zowie streaming
           </div>
         </div>
-        <div className="header--user">
-          <a href="/">
-            <img alt="User" src="https://learning.royalbcmuseum.bc.ca/wp-content/uploads/2014/07/netflix-face.jpg" />
-          </a>
-        </div>
     </header>
   )
 }
