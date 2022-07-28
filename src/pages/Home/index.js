@@ -69,11 +69,10 @@ function Home() {
         <div className="loading">
           <img alt="Loading" src="https://media.wired.com/photos/592744d3f3e2356fd800bf00/master/w_2000,c_limit/Netflix_LoadTime.gif"/>
         </div>
-      }      
+      }
 
     </div>
   )
-
-  }
+}
 
 export default Home
